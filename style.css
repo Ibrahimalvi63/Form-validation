@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #02001d, #030113);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif;
+
+}
+.form-container{
+    background: white;
+    width: 70%;
+    max-width: 540px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.form-container #form{
+    padding: 10px;
+}
+#form h1{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#form #form-input{
+    width: 100%;
+}
+#form-input .input-group{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+.input-group label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.input-group input{
+    width: 70%;
+    max-width: 450px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    outline: 1px solid;
+    
+}
+.input-group textarea{
+    width: 90%;
+    max-width: 450px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    outline: 1px solid;
+    
+}
+.input-group span{
+    color: red;
+    position: absolute;
+    right: 60px;
+    bottom: 16px;
+}
+span i{
+    color: green;
+}
+
+
+.input-group input[type="email"]{
+    margin-left: 36px;
+}
+.input-group input[type="password"]{
+    margin-left: 3px;
+}
+.input-group input[type="tel"]{
+    margin-left: 28px;
+}
+.input-group input[type="text"]#name{
+    margin-left: 32px;
+}
+
+
+
+
+
+
+
+#submit-btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(54, 224, 20);
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 1px 8px rgb(0, 0, 0, 0.3);
+    transition: all 0.5s;
+}
+#submit-btn:hover{
+    background-color: rgb(28, 150, 3);
+}
+#submit-error{
+    color: red;
+}
+
+
